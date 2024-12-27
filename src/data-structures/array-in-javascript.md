@@ -8,7 +8,8 @@
 
 ### Creating an Array:
 
-```// Using array literal
+```javascript
+// Using array literal
 let arr = [1, 2, 3, 4, 5];
 
 // Using the Array constructor
@@ -18,7 +19,8 @@ let arr3 = new Array(1, 2, 3);  // Creates an array [1, 2, 3]
 
 ### Accessing Elements:
 
-```let arr = [10, 20, 30, 40];
+```javascript
+let arr = [10, 20, 30, 40];
 console.log(arr[0]); // Output: 10
 console.log(arr[2]); // Output: 30
 
@@ -28,7 +30,8 @@ console.log(arr.length); // Output: 4
 
 ### Adding and Removing Elements:
 
-```// Adding elements to the end
+```javascript
+// Adding elements to the end
 arr.push(5);  // arr = [1, 2, 3, 4, 5]
 
 // Removing the last element
@@ -43,7 +46,8 @@ arr.shift();  // arr = [1, 2, 3, 4]
 
 ### Splice and Slice:
 
-```// Splice: removes elements starting from index 2
+```javascript
+// Splice: removes elements starting from index 2
 arr.splice(1, 2); // arr = [1, 4] (removes 2 and 3) // you to remove from 1 index, remove only 2 index
 
 // Slice: returns a shallow copy from index 1 to 2
@@ -52,7 +56,8 @@ let newArr = arr.slice(1, 2); // newArr = [4]
 
 ### Array Iteration:
 
-```// Using for loop
+```javascript
+// Using for loop
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
@@ -69,7 +74,8 @@ console.log(doubled); // Output: [2, 4, 6, 8]
 
 ### Searching Elements:
 
-```// Find index of an element
+```javascript
+// Find index of an element
 console.log(arr.indexOf(3));  // Output: 2
 
 // Check if an element exists
@@ -84,7 +90,7 @@ let filtered = arr.filter((item) => item > 2); // Output: [3, 4]
 
 ### Sorting and Reversing:
 
-```
+```javascript
 let arr = [2, 3, 4, 1];
 // Sort the array
 arr.sort((a, b) => a - b); // Output: [1, 2, 3, 4]
@@ -95,19 +101,19 @@ arr.reverse(); // Output: [4, 3, 2, 1]
 
 ### Joining Elements:
 
-```
+```javascript
 let arr = ['apple', 'banana', 'cherry'];
 let joined = arr.join(', '); // Output: "apple, banana, cherry"
 console.log(joined);
 ```
 
 ### Array Implementation:
-```
+```javascript
 let items = {}
 let length = 0;
 ```
 #### Add an element to the end:
-```
+```javascript
 function push(value) {
     items[length] = value;
     length++;
@@ -117,7 +123,7 @@ push(20); // items = [10, 20]
 push(30); // items = [10, 20, 30]
 ```
 #### Remove the last element
-```
+```javascript
 function pop() {
     if (length === 0) return undefined;
     const lastItem = items[length - 1];
@@ -129,7 +135,7 @@ pop(); // output: 30
 ```
 
 #### Get an element by index
-```
+```javascript
 function get(index) {
     return items[index];
 }
@@ -137,7 +143,7 @@ get(0); // output: 10
 ```
 
 #### Print all elements
-```
+```javascript
 function print() {
     console.log(Object.values(items));
 }
