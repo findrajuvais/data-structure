@@ -8,7 +8,8 @@
 
 ### Creating an Array:
 
-```// Using array literal
+```javascript
+//Using array literal
 let arr = [1, 2, 3, 4, 5];
 
 // Using the Array constructor
