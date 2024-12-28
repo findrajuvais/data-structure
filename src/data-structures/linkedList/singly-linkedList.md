@@ -167,6 +167,6 @@ display(): O(n) - We need to go through the entire list to display its contents.
 
 ## See Next:
 
-- [Doubly Linked List](src/data-structures/linkedList/doubly-linkedList.md)
-- [Circular Linked List](src/data-structures/linkedList/circular-linkedList.md)
-- [Circular Doubly Linked List](src/data-structures/linkedList/circular-doubly-linkedList.md)
+- [Doubly Linked List](doubly-linkedList.md)
+- [Circular Linked List](circular-linkedList.md)
+- [Circular Doubly Linked List](circular-doubly-linkedList.md)

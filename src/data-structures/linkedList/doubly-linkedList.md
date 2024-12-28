@@ -203,5 +203,5 @@ printForward(); // Output: 20 <-> 10 <-> 5
 
 ## See Next:
 
-- [Circular Linked List](src/data-structures/linkedList/circular-linkedList.md)
-- [Circular Doubly Linked List](src/data-structures/linkedList/circular-doubly-linkedList.md)
+- [Circular Linked List](circular-linkedList.md)
+- [Circular Doubly Linked List](circular-doubly-linkedList.md)
