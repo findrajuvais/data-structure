@@ -183,6 +183,6 @@ printList(); // Output: 5 -> 10
 ```
 
 ## See Next:
-
-- [Circular Linked List](circular-linkedList.md)
 - [Circular Doubly Linked List](circular-doubly-linkedList.md)
+- [Singly Linked List](singly-linkedList.md)
+- [Doubly Linked List](doubly-linkedList.md)

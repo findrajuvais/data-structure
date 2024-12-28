@@ -205,3 +205,4 @@ printForward(); // Output: 20 <-> 10 <-> 5
 
 - [Circular Linked List](circular-linkedList.md)
 - [Circular Doubly Linked List](circular-doubly-linkedList.md)
+- [Singly Linked List](singly-linkedList.md)
