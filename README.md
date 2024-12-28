@@ -1,7 +1,7 @@
 ### Data Structure specific algorithms
 
 - [Array in Javascript](src/data-structures/array-in-javascript.md) 
-- [LinkedList in Javascript](src/data-structures/linkedlist-in-javascript.md) 
+- [LinkedList in Javascript](src/data-structures/linkedList/singly-linkedList.md) 
 - [HashTables in Javascript](src/data-structures/hashtable-in-javascript.md) 
 - [Tree (Implementation, Binary tree, binary search tree) in Javascript](src/data-structures/tree-in-javascript.md) 
 - [Stack in Javascript](src/data-structures/stack-in-javascript.md) 

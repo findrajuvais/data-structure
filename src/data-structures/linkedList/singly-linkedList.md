@@ -1,11 +1,14 @@
 # LinkedList
+
 - A Linked List is a linear data structure where each element (or node) contains two parts:
-    1. Data: Stores the value or the content of the node.
-    2. Next: A reference (or pointer) to the next node in the sequence.
+
+  1. Data: Stores the value or the content of the node.
+  2. Next: A reference (or pointer) to the next node in the sequence.
 
 - Linked lists are dynamic in size, unlike arrays, and are often used when we need efficient insertion or deletion operations. Here’s a simple Singly Linked List implementation in JavaScript.
 
 ### Basic operations:
+
     1. append(data): Adds a node at the end of the list.
     2. prepend(data): Adds a node at the beginning of the list.
     3. delete(data): Deletes a node with the specified data.
@@ -15,39 +18,44 @@
 ## Basic Implementation
 
 ### Types:(Singly Linked List, Doubly Linked List, Circular Linked List, Circular Doubly Linked List)
-#### Singly Linked List: 
+
+#### Singly Linked List:
+
     - A Singly Linked List is the simplest type of linked list. In this type, each node points to the next node in the sequence, and the last node points to null, indicating the end of the list.
 
 ##### Node class to represent each node in the linked list:
+
 ```javascript
 class Node {
-    constructor(data) {
-        this.data = data;  // Stores the data
-        this.next = null;   // Points to the next node
-    }
+  constructor(data) {
+    this.data = data; // Stores the data
+    this.next = null; // Points to the next node
+  }
 }
 ```
 
 ##### Represent LinkedList:
+
 ```javascript
-    let head = null; // A reference to the first node.
-    let tail = null; // A reference to the last node.
-    let size = 0; // the number of the node lists.
+let head = null; // A reference to the first node.
+let tail = null; // A reference to the last node.
+let size = 0; // the number of the node lists.
 ```
 
 ##### Add a node to the end of the list:
+
 ```javascript
 function append(data) {
-    const newNode = new Node(data);  // Create a new node with the data
+  const newNode = new Node(data); // Create a new node with the data
 
-    if (head === null) {
-        head = newNode; // If the list is empty, new node is the head
-        tail = newNode; // The new node is also the tail
-    } else {
-        tail.next = newNode; // Link the current tail to the new node
-        tail = newNode; // Update the tail to the new node
-    }
-    size++; // Increase the size of the list
+  if (head === null) {
+    head = newNode; // If the list is empty, new node is the head
+    tail = newNode; // The new node is also the tail
+  } else {
+    tail.next = newNode; // Link the current tail to the new node
+    tail = newNode; // Update the tail to the new node
+  }
+  size++; // Increase the size of the list
 }
 append(10);
 append(20);
@@ -55,23 +63,25 @@ append(30);
 ```
 
 ##### Add a node to the beginning of the list:
+
 ```javascript
 function prepend(data) {
-    const newNode = new Node(data);
-    if (head === null) {
-        head = newNode;
-        tail = newNode;
-    } else {
-        newNode.next = head; // Link new node to the current head
-        head = newNode; // Update the head to the new node
-    }
-    size++; // Increase the size of the list
+  const newNode = new Node(data);
+  if (head === null) {
+    head = newNode;
+    tail = newNode;
+  } else {
+    newNode.next = head; // Link new node to the current head
+    head = newNode; // Update the head to the new node
+  }
+  size++; // Increase the size of the list
 }
 prepend(5); //output: 5 -> 10 -> 20 -> 30
 prepend(1); //output: 1 -> 5 -> 10 -> 20 -> 30
 ```
 
 ##### Delete the first node with the specified data:
+
 ```javascript
 function delete(data) {
     if (head === null) {
@@ -107,41 +117,44 @@ delete(1); //output: 5 -> 20 -> 30
 ```
 
 ##### Find a node with the specified data:
+
 ```javascript
 function find(data) {
-    let current = head;
-    while (current !== null) {
-        if (current.data === data) {
-        return current; // Return the node if found
-        }
-        current = current.next; // Move to the next node
+  let current = head;
+  while (current !== null) {
+    if (current.data === data) {
+      return current; // Return the node if found
     }
-    return null; // Return null if the node is not found
+    current = current.next; // Move to the next node
+  }
+  return null; // Return null if the node is not found
 }
-find(20) // Output: Found Node: 20
-find(40) // Output: Found Node: null
+find(20); // Output: Found Node: 20
+find(40); // Output: Found Node: null
 ```
 
 ##### Display all nodes in the list:
+
 ```javascript
 function display() {
-    let current = head;
-    let result = '';
-    while (current !== null) {
-        result += current.data + ' -> ';
-        current = current.next;
-    }
-    console.log(result ? result.slice(0, -4) : 'Empty List'); // Remove last ' -> '
+  let current = head;
+  let result = "";
+  while (current !== null) {
+    result += current.data + " -> ";
+    current = current.next;
+  }
+  console.log(result ? result.slice(0, -4) : "Empty List"); // Remove last ' -> '
 }
 display(); // Output: 5 -> 20 -> 30
 ```
 
 ##### Get size of nodes in the list:
+
 ```javascript
 function getSize() {
-    return size;
+  return size;
 }
-getSize() //Output: 3
+getSize(); //Output: 3
 
 /*** Time Complexity:
 append(): O(1) - We keep a reference to the tail, so appending is fast.
@@ -152,3 +165,8 @@ display(): O(n) - We need to go through the entire list to display its contents.
 */
 ```
 
+## See Next:
+
+- [Doubly Linked List](src/data-structures/linkedList/doubly-linkedList.md)
+- [Circular Linked List](src/data-structures/linkedList/circular-linkedList.md)
+- [Circular Doubly Linked List](src/data-structures/linkedList/circular-doubly-linkedList.md)
