@@ -71,7 +71,7 @@ function remove(key){
 
 ##### Check if a key exists in the hash table:
 ```javascript
-function contain(key){
+function has(key){
     const index = hash(key);
     const bucket = table[index];
     
@@ -107,8 +107,8 @@ console.log(get("job"));  // Output: Engineer
 remove("age");
 console.log(get("age"));  // Output: undefined
 
-console.log(contains("name")); // Output: true
-console.log(contains("age"));  // Output: false
+console.log(has("name")); // Output: true
+console.log(has("age"));  // Output: false
 
 display();
 ```
@@ -133,3 +133,9 @@ console.log(map.has("age"));   // Output: true
 map.delete("job");
 console.log(map.has("job"));   // Output: false
 ```
+
+#### Time Complexity:
+Insert: Average time complexity is O(1) but can degrade to O(n) in case of a collision (if many keys hash to the same index).
+Get: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
+Remove: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
+Contains: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
