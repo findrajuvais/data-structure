@@ -1,8 +1,6 @@
-# LinkedList
+# LinkedList (Doubly Linked List):
 
-### Doubly Linked List:
-
-    - A Doubly Linked List allows traversal in both directions (forward and backward). Each node contains three parts:
+A Doubly Linked List allows traversal in both directions (forward and backward). Each node contains three parts:
 
     1. Data: Stores the value of the node.
     2. Next: A reference to the next node.

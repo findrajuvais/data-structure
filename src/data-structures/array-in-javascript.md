@@ -1,6 +1,6 @@
 # Array
 
-- An array is a built-in data structure that allows you to store multiple values in a single variable. Arrays are flexible, dynamic, and provide several methods for accessing, modifying, and iterating over elements.
+An array is a built-in data structure that allows you to store multiple values in a single variable. Arrays are flexible, dynamic, and provide several methods for accessing, modifying, and iterating over elements.
 - Each element in an array is stored at a specific index, starting from 0.
 - Arrays in JavaScript are dynamic, meaning they can grow or shrink in size automatically as elements are added or removed.
 - JavaScript arrays can hold values of any type (numbers, strings, objects, etc.).

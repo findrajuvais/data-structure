@@ -1,8 +1,8 @@
 # Hash Tables
 
-    In JavaScript, a hash table is a data structure that maps keys to values. It allows for fast retrieval, insertion, and deletion of key-value pairs based on the key.
+In JavaScript, a hash table is a data structure that maps keys to values. It allows for fast retrieval, insertion, and deletion of key-value pairs based on the key.
 
-    Build-in hashtable - Map
+Build-in hashtable - Map
 
 ### Hash Tables implementations:
 
@@ -218,6 +218,7 @@ console.log([...uniqueSet]); // Output: [1, 2, 3, 4, 5]
 2. Space Complexity: Hash tables can require extra memory for handling collisions and maintaining the hash table itself, especially when the hash table size is larger than necessary for the number of entries.
 
 #### Applications of Hash Tables:
+
 1. Caching
 2. Database Indexing
 3. Symbol Tables in Compilers

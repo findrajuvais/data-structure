@@ -1,9 +1,9 @@
 # LinkedList
 
-- A Linked List is a linear data structure where each element (or node) contains two parts:
+A Linked List is a linear data structure where each element (or node) contains two parts:
 
-  1. Data: Stores the value or the content of the node.
-  2. Next: A reference (or pointer) to the next node in the sequence.
+1. Data: Stores the value or the content of the node.
+2. Next: A reference (or pointer) to the next node in the sequence.
 
 - Linked lists are dynamic in size, unlike arrays, and are often used when we need efficient insertion or deletion operations. Here’s a simple Singly Linked List implementation in JavaScript.
 
@@ -21,7 +21,7 @@
 
 #### Singly Linked List:
 
-    - A Singly Linked List is the simplest type of linked list. In this type, each node points to the next node in the sequence, and the last node points to null, indicating the end of the list.
+A Singly Linked List is the simplest type of linked list. In this type, each node points to the next node in the sequence, and the last node points to null, indicating the end of the list.
 
 ##### Node class to represent each node in the linked list:
 

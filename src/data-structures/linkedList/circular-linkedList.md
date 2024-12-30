@@ -1,6 +1,6 @@
 # LinkedList (Circular Linked List):
 
-    A Circular Linked List is a variation of the linked list where the last node points back to the first node instead of null. This creates a loop in the list, making it circular.
+A Circular Linked List is a variation of the linked list where the last node points back to the first node instead of null. This creates a loop in the list, making it circular.
 
 #### Key Characteristics of a Circular Linked List:
 
@@ -183,6 +183,7 @@ printList(); // Output: 5 -> 10
 ```
 
 ## See Next:
+
 - [Circular Doubly Linked List](circular-doubly-linkedList.md)
 - [Singly Linked List](singly-linkedList.md)
 - [Doubly Linked List](doubly-linkedList.md)

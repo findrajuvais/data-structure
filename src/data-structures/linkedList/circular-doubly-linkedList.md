@@ -1,12 +1,12 @@
 # LinkedList (Circular Doubly Linked List):
 
-    A Circular Doubly Linked List (CDLL) is a variation of a Doubly Linked List where the first node's previous pointer points to the last node, and the last node's next pointer points to the first node, forming a circular structure. Each node in this list has two pointers:
-        next: Points to the next node in the list.
-        prev: Points to the previous node in the list.
+A Circular Doubly Linked List (CDLL) is a variation of a Doubly Linked List where the first node's previous pointer points to the last node, and the last node's next pointer points to the first node, forming a circular structure. Each node in this list has two pointers:
+next: Points to the next node in the list.
+prev: Points to the previous node in the list.
 
-    In a Circular Doubly Linked List:
-        Head's previous points to the last node.
-        Tail's next points to the head.
+In a Circular Doubly Linked List:
+Head's previous points to the last node.
+Tail's next points to the head.
 
 #### Key Features:
 
@@ -216,6 +216,7 @@ printList(); // Output: 5 <-> 10
 ```
 
 ## See Next:
+
 - [Singly Linked List](singly-linkedList.md)
 - [Doubly Linked List](doubly-linkedList.md)
 - [Circular Linked List](circular-linkedList.md)
