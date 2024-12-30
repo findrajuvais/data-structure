@@ -135,7 +135,7 @@ console.log(map.has("job"));   // Output: false
 ```
 
 #### Time Complexity:
-Insert: Average time complexity is O(1) but can degrade to O(n) in case of a collision (if many keys hash to the same index).
-Get: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
-Remove: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
-Contains: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
+1. Insert: Average time complexity is O(1) but can degrade to O(n) in case of a collision (if many keys hash to the same index).
+2. Get: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
+3. Remove: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
+4. Contains: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
