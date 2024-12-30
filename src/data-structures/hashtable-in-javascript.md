@@ -206,3 +206,29 @@ console.log([...uniqueSet]); // Output: [1, 2, 3, 4, 5]
 2. Get: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
 3. Remove: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
 4. Contains: Average time complexity is O(1) but can degrade to O(n) in case of a collision.
+
+#### Advantages of Hash Tables:
+
+1. Fast Lookups: The average time complexity for searching, inserting, and deleting entries in a hash table is O(1), making them very efficient.
+2. Memory Efficiency: Hash tables provide an efficient way to store and access data compared to other data structures like arrays or linked lists.
+
+#### Disadvantages:
+
+1. Collision Handling: Hash tables may experience collisions (when two different keys hash to the same index), and the implementation of collision resolution methods (like chaining or open addressing) can complicate their use.
+2. Space Complexity: Hash tables can require extra memory for handling collisions and maintaining the hash table itself, especially when the hash table size is larger than necessary for the number of entries.
+
+#### Applications of Hash Tables:
+1. Caching
+2. Database Indexing
+3. Symbol Tables in Compilers
+4. Associative Arrays / Dictionaries
+5. Set Operations
+6. Load Balancing
+7. Cryptography (Hash Functions)
+8. Counting and Frequency Analysis
+9. Finding Duplicates
+10. Routing Tables in Networks
+11. Autocomplete and Spell Checker
+12. Graph Algorithms (Adjacency List)
+13. Distributed Systems (Sharding)
+14. Unique Identification
