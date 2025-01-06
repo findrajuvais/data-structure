@@ -3,7 +3,7 @@
 - [Array in Javascript](src/data-structures/array-in-javascript.md) 
 - [LinkedList in Javascript](src/data-structures/linkedList/singly-linkedList.md) 
 - [HashTables in Javascript](src/data-structures/hashtable-in-javascript.md) 
-- [Tree (Implementation, Binary tree, binary search tree) in Javascript](src/data-structures/tree-in-javascript.md) 
+- [Tree (Implementation, Binary tree, binary search tree) in Javascript](src/data-structures/trees/implementation.md) 
 - [Stack in Javascript](src/data-structures/stack-in-javascript.md) 
 - [Queue in Javascript](src/data-structures/queue-in-javascript.md) 
 - [Heaps(Implemenation, Priority queue) in Javascript](src/data-structures/heaps-in-javascript.md) 
