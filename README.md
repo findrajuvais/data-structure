@@ -7,9 +7,8 @@
 - [Stack in Javascript](src/data-structures/stack-in-javascript.md) 
 - [Queue in Javascript](src/data-structures/queue-in-javascript.md) 
 - [Heaps(Implemenation, Priority queue) in Javascript](src/data-structures/heaps-in-javascript.md) 
-- [Graph in Javascript](src/data-structures/graph-in-javascript.md) 
+- [Graph in Javascript](src/data-structures/graph/graph-implementation.md) 
 - [Tries in Javascript](src/data-structures/tries-in-javascript.md) 
-- [Union find in Javascript](src/data-structures/unoin-find-in-javascript.md)
 
 
 ### General algorithms/techniques
@@ -17,3 +16,4 @@
 - [Dynamic Programing](src/techniques/dynamic-programming-in-javascript.md)
 - [Backtracking](src/techniques/Backtracking-in-javascript.md)
 - [Greedy Algorithms](src/algorithms/recursion-in-javascript.md)
+- [Union find in Javascript](src/data-structures/unoin-find-in-javascript.md)
